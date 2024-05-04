@@ -2,7 +2,14 @@ import { Link } from 'react-router-dom';
 
 import SourceNotesRounded from '@/assets/icons/source-notes-rounded.svg?react';
 
-const data = [];
+const data = [
+  {
+    title: '溫泉酒店',
+    route: '/layouts/playliving-izu-clone',
+    sourceUrl: 'https://playliving-izu.com/',
+  }
+
+];
 
 const Navigation = () => (
   <nav>

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply box-border p-0 m-0;
+}
+
+body {
+	@apply h-full overflow-auto text-base font-normal tracking-wider text-neutral-600 font-NotoSerifTC;
+}
+
+img {
+	@apply block object-cover w-full h-auto max-w-full;
+}
+
+.hr_hover-rtl:hover hr {
+	@apply w-0 m-0;
+}

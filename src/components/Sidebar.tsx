@@ -7,10 +7,10 @@ interface SidebarProps {
 }
 
 const Sidebar = ({ isOpen, onClick }: SidebarProps) => (
-  <div className={`fixed left-0 top-0 z-50 h-screen w-60 border-r border-solid border-neutral-200 bg-white p-4 duration-300 ${isOpen ? 'translate-x-1/5' : '-translate-x-60'}`}>
-    <div className='border-b border-solid border-neutral-200 pb-5'>
+  <div className={`fixed left-0 top-0 z-[99] h-screen w-60 border-r border-solid border-neutral-200 bg-white p-4 duration-300 ${isOpen ? 'translate-x-1/5' : '-translate-x-60'}`}>
+    <div className='pb-5 border-b border-solid border-neutral-200'>
       <h1 className="flex items-center gap-2 text-lg font-medium">
-        <button type='button' className='rounded-full duration-300 hover:bg-neutral-300/25' onClick={onClick}>
+        <button type='button' className='duration-300 rounded-full hover:bg-neutral-300/25' onClick={onClick}>
           <ArrowLeftIcon className="mt-1 size-6" />
         </button>
         切版大合集

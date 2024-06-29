@@ -7,7 +7,7 @@
 }
 
 body {
-	@apply h-full overflow-auto text-base font-normal tracking-wider text-neutral-600 font-NotoSerifTC;
+	@apply h-full overflow-auto text-sm font-normal tracking-wider sm:text-base text-neutral-600 font-NotoSerifTC;
 }
 
 img {
